@@ -1,12 +1,4 @@
 
-## 📖 Overview
-
-**Proxy Launcher** is a smart solution for Telegram bots facing connectivity issues in **India** and other regions where Telegram is **partially blocked or throttled** by ISPs.
-
-This script **only routes Telegram API calls** through a proxy while keeping all your other APIs (game servers, databases, etc.) running **directly** without proxy overhead.
-
----
-
 ## 🎯 The Problem
 
 ### ❌ Without Proxy Launcher
@@ -134,20 +126,20 @@ grep -r "requests.get\|requests.post" main.py
 Example output:
 
 ```python
-requests.get("https://like-v351.onrender.com/...")
-requests.get("https://info-api-ob54.vercel.app/...")
-requests.get("https://access-to-jwt-navy.vercel.app/...")
+requests.get("api.example.com/...")
+requests.get("api.example.com/...")
+requests.get("api.example.com/...")
 ```
 
 Update NO_PROXY:
 
 ```python
 my_env['NO_PROXY'] = (
-    'like-v351.onrender.com,'
-    'info-api-ob54.vercel.app,'
-    'access-to-jwt-navy.vercel.app,'
-    'api-otrss.garena.com,'
-    'ticket.kiosgamer.co.id,'
+    'api.example.com,'
+    'api.example.com,'
+    'api.example.com,'
+    'api.example.com,'
+    'api.example.com,'
     'localhost,127.0.0.1'
 )
 ```
