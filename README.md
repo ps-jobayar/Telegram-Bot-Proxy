@@ -1,13 +1,3 @@
-📋 Complete README.md (One-Click Copy)
-
-```markdown
-# 🚀 Proxy Launcher for Telegram Bot (India Region)
-
-[![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://www.python.org/)
-[![Telegram](https://img.shields.io/badge/Telegram-Bot-blue.svg)](https://t.me/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
----
 
 ## 📖 Overview
 
